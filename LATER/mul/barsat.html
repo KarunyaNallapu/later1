@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>me</title>
+
+    <style>
+        body{
+            
+            margin:20px;
+            overflow: hidden;
+        }
+        .lines{
+          stroke: green;
+          stroke-width: 10px;
+        }
+        .lines path{
+         stroke: black;
+         stroke-linejoin: round;
+        }
+    </style>
+</head>
+<body>
+      <script src="https://d3js.org/d3.v4.min.js"></script> 
+<svg width="960" height="500">
+
+    <g class="lines">
+      <line x1="200" y1="20" x2="300"  y2="280"></line>
+      <path fill='none'  d="M300 280 L350 200 L400 250 "></path>
+</g>
+</svg>
+
+
+
+
+</body>
+</html>
